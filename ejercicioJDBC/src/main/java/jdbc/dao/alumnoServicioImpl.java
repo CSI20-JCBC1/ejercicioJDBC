@@ -33,7 +33,7 @@ public class alumnoServicioImpl implements alumnoServicio{
 				
 				declaracionSQL = conexion.createStatement();
 				
-				declaracionSQL.execute("INSERT INTO \"proyectoEclipse\".\"alumnos\" ( nombre, apellidos, email) VALUES ('Pablo', 'Blanco', 'pabloblanco@gmail.com');");
+				declaracionSQL.execute("INSERT INTO \"proyectoEclipse\".\"alumnos\" ( nombre, apellidos, email) VALUES ('Juan', 'Blanco', 'pabloblanco@gmail.com');");
 				
 
 				System.out.println("[INFORMACIÓN-consultasPostgreSQL-insertAlumnos] Cierre conexión, declaración y resultado");
